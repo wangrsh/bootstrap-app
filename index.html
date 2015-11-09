@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="ZH-CN">
+<html lang="zh-CN">
 <head >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible"  Content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap-math.css" />
+    <link rel="stylesheet" href="css/animate.css"/>
     <title>math teacher robot</title>
-    <script language="JavaScript" src="js/jquery.js"></script>
-    <script language="javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <!-- 导航 -->
@@ -21,20 +20,278 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
            </button>
+           <!--小屏幕导航按钮-->
            <!-- logo -->
            <a href="index.html" class="navbar-brand">数理学院</a>
        </div>
-        <!-- 导航 -->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">首页</a> </li>
-                <li><a href="index.html">课程中心</a> </li>
-                <li><a href="index.html">联系我们</a> </li>
-                <li><a href="index.html">移动APP</a> </li>
-                <li><a href="index.html">论坛</a> </li>
+                <li><a href="#home">首页</a> </li>
+                <li><a href="#html5">前端开发</a> </li>
+                <li><a href="#bootstrap">Bootstrap</a> </li>
+                <li><a href="#course">最新课程</a> </li>
+                <li><a href="#contact">联系我们</a> </li>
+                <li><a href="#app">移动APP</a> </li>
+                <li><a href="#bbs">论坛</a> </li>
             </ul>
         </div>
     </div>
 </nav>
+<!-- 导航 -->
+<!--首页-->
+<section  id="home">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row wow bounce">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1>bootstrap实战课程等你来战!</h1>
+                    <p>
+                        本课程适合人群：在学校的老师与同学</br>
+                        通过本课程，可以提高学习成绩
+                    </p>
+                    <img src="images/home.jpg" class="img-responsive"  alt="php"/>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--首页-->
+<!--论坛-->
+<section id="bbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="http://baidu.com" target="_blank">
+                    <img src="images/bbs.png" alt="android"/>
+                    <h3>Android开发</h3>
+                    <p>
+                        来到这里，你将得到所有android开发相关的知识！
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="http://baidu.com" target="_blank">
+                    <img src="images/bbs.png" alt="android"/>
+                    <h3>Android开发</h3>
+                    <p>
+                        来到这里，你将得到所有android开发相关的知识！
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="http://baidu.com" target="_blank">
+                    <img src="images/bbs.png" alt="android"/>
+                    <h3>Android开发</h3>
+                    <p>
+                        来到这里，你将得到所有android开发相关的知识！
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--论坛-->
+<!--html5-->
+<section id="html5">
+    <div class="containor">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeftBig" >
+                <h2>HTML5开发</h2>
+                <p> 一线工程师倾情打造一线工程师倾情打造一线工程师倾情打造</p>
+                <p><span class="glyphicon glyphicon-grain maizi-icon"></span>
+                    一线工程师倾情打造一线工程师倾情打造一线工程师倾情打工程师倾情</p>
+                <p><span class="glyphicon glyphicon-grain maizi-icon"></span>
+                    一线工程师倾情打造一线工程师倾情打造一线工程师倾情打造</p>
+            </div>
+            <div class="col-md-6 wow fadeInRightBig">
+                <img src="images/html5.jpg" class="img-responsive" alt="html5"/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--html5-->
+<!--bootstap-->
+<section id="bootstrap">
+    <div class="containor">
+        <div class="row wow fadeInUpBig">
+            <div class="col-md-6">
+                <img src="images/bootstrap.jpg" class="img-responsive" alt=""/>
+            </div>
+            <div class="col-md-6">
+                <h2>bootstrap开发</h2>
+                <p> 一线工程师倾情打造一线工程师倾情打造一线工程师倾情打造</p>
+                <p><span class="glyphicon glyphicon-grain maizi-icon"></span>
+                    一线工程师倾情打造一线工程师倾情打造一线工程师倾情打工程师倾情</p>
+                <p><span class="glyphicon glyphicon-grain maizi-icon"></span>
+                    一线工程师倾情打造一线工程师倾情打造一线工程师倾情打造</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--bootstap-->
+
+<!--course-->
+<section id="course">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>最新课程</h2>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift.jpg" alt="" class="img-responsive"/>
+                    <a href="http://www.maiziedu.com" target="_blank" class="btn btn-default" role="button">加入学习</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--course-->
+
+<!--app-->
+<section id="app">
+    <div class="containor">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>麦子学院移动APP下载</h2>
+                <p>你可以随时随地学习你可以随时随地学习你可以随时随地学习你可以随</br>
+                    你可以随时随地学习你可以随时随地学习
+                </p>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-user"></span>
+                    Iphone版
+                </button>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-user"></span>
+                   Android版
+                </button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/iphone.jpg" class="img-responsive" alt=""/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--app-->
+
+<!--contact-->
+<section id="contact">
+    <div class="lvjing">
+        <div class="containor">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>联系小忙</h2>
+                    <p>
+                        联系小忙联系小忙联系小忙联系小忙联系小忙联系小忙联系小忙联系小忙
+                    </p>
+                    <address>
+                        <p>
+                            地址：联系小忙联系小忙联系小忙联系小忙
+                        </p>
+                        <p>
+                            电话：0571-998899000
+                        </p>
+                        <p>
+                            邮箱：8890waf@sina.com
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" method="post">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="你的姓名"/>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="你的邮箱"/>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="标题"/>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea id="ta" class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="submit" class="form-control" value="提交"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    © 2012-2015 www.maiziedu.com &nbsp&nbsp&nbsp
+                    蜀ICP备13014270号-4 Version 4.0.6 release20150115.1
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+<script language="JavaScript" src="js/jquery.js"></script>
+<script language="javascript" src="js/bootstrap.min.js"></script>
+<script language="javascript" src="js/wow.min.js"></script>
+<script language="javascript" src="js/jquery.singlePageNav.min.js"></script>
+<script language="JavaScript">
+    $(function(){
+       /*导航跳转效果插件*/
+        $('.nav').singlePageNav(                {
+            offset:70
+        });
+        /*小屏幕导航关闭菜单*/
+        $('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        })
+        /*动画效果*/
+        new WOW().init();
+    });
+
+</script>
 </body>
 </html>
